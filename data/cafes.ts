@@ -6,7 +6,7 @@ export const cafes = [
     area: "Bais Godam, Jaipur",
     cluster: "Cluster 01",
     note: "Nearby to Petite Patisserie",
-    image: "/cafes/camiano.png",
+    image: "/cafes/camiano.PNG",
     maps: "https://maps.app.goo.gl/HUbexKDmKvW76W2TA",
   },
 
@@ -17,7 +17,7 @@ export const cafes = [
     area: "Lal Kothi,Tonk Road, Jaipur",
     cluster: "Cluster 01",
     note: "Nearby to Camiano",
-    image: "/cafes/petite.png",
+    image: "/cafes/petite.PNG",
     maps: "https://maps.app.goo.gl/jsdjDiV28Qq5xam69",
   },
 
@@ -28,7 +28,7 @@ export const cafes = [
     area: "civil Lines, Jaipur",
     cluster: "Cluster 02",
     note: "Nearby to Dzurt",
-    image: "/cafes/giardino.png",
+    image: "/cafes/giardino.PNG",
     maps: "https://maps.app.goo.gl/QfneTkBE1jR4gdQ9A",
   },
 
@@ -39,7 +39,7 @@ export const cafes = [
     area: "Jacob Road,Inside Spice Hotel, Jaipur",
     cluster: "Cluster 02",
     note: "Nearby to Giardino",
-    image: "/cafes/dzurt.png",
+    image: "/cafes/dzurt.PNG",
     maps: "https://maps.app.goo.gl/eYFtrHtTwDggYjRu7",
   },
 
@@ -50,7 +50,7 @@ export const cafes = [
     area: "Malviya Nagar, Jaipur",
     cluster: "Final Stop",
     note: "Separate destination in Malviya Nagar",
-    image: "/cafes/zolocrust.png",
+    image: "/cafes/zolocrust.PNG",
     maps: "https://maps.app.goo.gl/VQ21qYpBs4udtQaD8",
   },
 ];
