@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight, MapPin } from "lucide-react";
-import { cafes } from "@/data/cafe";
+import { cafes } from "@/data/cafes";
 
 export default function Home() {
   return (
