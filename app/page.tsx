@@ -15,15 +15,28 @@ export default function Home() {
         {/* HERO IMAGE */}
         <div className="absolute inset-0">
 
-          <Image
-            src="/cafes/hero.png"
-            alt="Jaipur Tiramisu Trail"
-            fill
-            priority
-            quality={100}
-            sizes="100vw"
-            className="object-cover object-bottom"
-          />
+          {/* DESKTOP IMAGE */}
+  <div className="hidden md:block absolute inset-0">
+    <Image
+      src="/cafes/hero.png"
+      alt="Jaipur Tiramisu Trail"
+      fill
+      priority
+      sizes="100vw"
+      className="object-cover object-bottom"
+    />
+  </div>
+
+          {/* MOBILE IMAGE */}
+  <div className="block md:hidden absolute inset-0">
+    <Image
+      src="/cafes/hero-mobile.png"
+      alt="Jaipur Tiramisu Trail"
+      fill
+      priority
+      sizes="100vw"
+className="object-cover object-[25%_center]"    />
+  </div>
 
           {/* SOFT OVERLAY */}
           <div className="absolute inset-0 bg-black/10" />
