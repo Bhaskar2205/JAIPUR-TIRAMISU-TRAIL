@@ -10,16 +10,6 @@ export const cafes = [
     maps: "https://maps.app.goo.gl/HUbexKDmKvW76W2TA",
   },
 
-  {
-    id: 2,
-    stop: "02",
-    name: "Petite Patisserie",
-    area: "Lal Kothi,Tonk Road, Jaipur",
-    cluster: "Cluster 01",
-    note: "Nearby to Camiano",
-    image: "/cafes/petite.PNG",
-    maps: "https://maps.app.goo.gl/jsdjDiV28Qq5xam69",
-  },
 
   {
     id: 3,
@@ -32,25 +22,6 @@ export const cafes = [
     maps: "https://maps.app.goo.gl/QfneTkBE1jR4gdQ9A",
   },
 
-  {
-    id: 4,
-    stop: "04",
-    name: "Dzurt",
-    area: "Jacob Road,Inside Spice Hotel, Jaipur",
-    cluster: "Cluster 02",
-    note: "Nearby to Giardino",
-    image: "/cafes/dzurt.PNG",
-    maps: "https://maps.app.goo.gl/eYFtrHtTwDggYjRu7",
-  },
+ 
 
-  {
-    id: 5,
-    stop: "05",
-    name: "Zolocrust",
-    area: "Malviya Nagar, Jaipur",
-    cluster: "Final Stop",
-    note: "Separate destination in Malviya Nagar",
-    image: "/cafes/zolocrust.PNG",
-    maps: "https://maps.app.goo.gl/VQ21qYpBs4udtQaD8",
-  },
 ];
