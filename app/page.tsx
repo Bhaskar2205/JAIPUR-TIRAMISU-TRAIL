@@ -18,7 +18,7 @@ export default function Home() {
           {/* DESKTOP IMAGE */}
   <div className="hidden md:block absolute inset-0">
     <Image
-      src="/cafes/hero.png"
+      src="/cafes/heroo.png"
       alt="Jaipur Tiramisu Trail"
       fill
       priority
@@ -27,16 +27,17 @@ export default function Home() {
     />
   </div>
 
-          {/* MOBILE IMAGE */}
-  <div className="block md:hidden absolute inset-0">
-    <Image
-      src="/cafes/hero-mobile.png"
-      alt="Jaipur Tiramisu Trail"
-      fill
-      priority
-      sizes="100vw"
-className="object-cover object-[25%_center]"    />
-  </div>
+     {/* MOBILE IMAGE */}
+<div className="block md:hidden absolute inset-0">
+  <Image
+    src="/cafes/hero-mobiles.png"
+    alt="Jaipur Tiramisu Trail"
+    fill
+    priority
+    sizes="(max-width: 768px) 100vw"
+    className="object-cover object-[25%_center]"
+  />
+</div>
 
           {/* SOFT OVERLAY */}
           <div className="absolute inset-0 bg-black/10" />
@@ -113,7 +114,6 @@ className="object-cover object-[25%_center]"    />
                   src={cafe.image}
                   alt={cafe.name}
                   fill
-                  quality={100}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -171,20 +171,33 @@ className="object-cover object-[25%_center]"    />
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="border-t border-black/10 py-10 px-5">
+     {/* FOOTER */}
+<footer className="border-t border-black/10 py-10 px-5 bg-[#F7F3EE]">
 
-        <div className="max-w-7xl mx-auto flex flex-col gap-3 sm:flex-row justify-between items-center text-center">
+  <div className="max-w-7xl mx-auto flex flex-col gap-5 sm:flex-row justify-between items-center text-center">
 
-          <p className="text-sm text-[#777]">
-            Jaipur’s Famous Restaurants & Cafés — Tiramisu Trail
-          </p>
+   {/* LEFT TEXT */}
+<p className="text-sm sm:text-base font-bold tracking-wide bg-gradient-to-r from-[#8B5E5A] via-[#9C6B4F] to-[#6F4E4E] bg-[length:200%_200%] bg-clip-text text-transparent animate-gradient">
+  Jaipur’s Famous Restaurants & Cafés — Tiramisu Trail
+</p>
 
-          <p className="text-sm text-[#777]">
-            Curated by IO (InfoObjects)
-          </p>
-        </div>
-      </footer>
+    {/* LOGO SECTION */}
+    <div className="flex items-center gap-4">
+
+      <span className="text-sm uppercase tracking-[0.25em] text-[#777]">
+        Curated by
+      </span>
+
+      <Image
+        src="/logo/infoobjects-logo.png"
+        alt="InfoObjects"
+        width={180}
+        height={40}
+        className="object-contain w-[150px] sm:w-[180px] h-auto"
+      />
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
