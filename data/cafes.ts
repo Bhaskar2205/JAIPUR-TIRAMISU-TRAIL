@@ -13,7 +13,7 @@ export const cafes = [
 
   {
     id: 3,
-    stop: "03",
+    stop: "02",
     name: "Giardino",
     area: "civil Lines, Jaipur",
     cluster: "Cluster 02",
